@@ -27,6 +27,13 @@ function switchMember2() { //switch to the second member (input)
 }
 
 function add1() { //pressing the button 1
+    if (pressedEqual)
+    {
+        member1 = '';
+        member2 = '';
+        stillMember1 = true;
+        pressedEqual = false;
+    }
     resetConsOp();
     if (stillMember1 == true) {
         member1 = member1 + '1';
@@ -39,6 +46,13 @@ function add1() { //pressing the button 1
 }
 
 function add2() {
+    if (pressedEqual)
+    {
+        member1 = '';
+        member2 = '';
+        stillMember1 = true;
+        pressedEqual = false;
+    }
 
     resetConsOp();
 
@@ -54,6 +68,13 @@ function add2() {
 }
 
 function add3() {
+    if (pressedEqual)
+    {
+        member1 = '';
+        member2 = '';
+        stillMember1 = true;
+        pressedEqual = false;
+    }
     resetConsOp();
 
     if (stillMember1 == true) {
@@ -67,6 +88,13 @@ function add3() {
 }
 
 function add4() {
+    if (pressedEqual)
+    {
+        member1 = '';
+        member2 = '';
+        stillMember1 = true;
+        pressedEqual = false;
+    }
     resetConsOp();
 
     if (stillMember1 == true) {
@@ -81,6 +109,13 @@ function add4() {
 }
 
 function add5() {
+    if (pressedEqual)
+    {
+        member1 = '';
+        member2 = '';
+        stillMember1 = true;
+        pressedEqual = false;
+    }
     resetConsOp();
 
     if (stillMember1 == true) {
@@ -95,6 +130,13 @@ function add5() {
 }
 
 function add6() {
+    if (pressedEqual)
+    {
+        member1 = '';
+        member2 = '';
+        stillMember1 = true;
+        pressedEqual = false;
+    }
     resetConsOp();
 
     if (stillMember1 == true) {
@@ -109,6 +151,13 @@ function add6() {
 }
 
 function add7() {
+    if (pressedEqual)
+    {
+        member1 = '';
+        member2 = '';
+        stillMember1 = true;
+        pressedEqual = false;
+    }
     resetConsOp();
 
     if (stillMember1 == true) {
@@ -123,6 +172,13 @@ function add7() {
 }
 
 function add8() {
+    if (pressedEqual)
+    {
+        member1 = '';
+        member2 = '';
+        stillMember1 = true;
+        pressedEqual = false;
+    }
     resetConsOp();
 
     if (stillMember1 == true) {
@@ -137,6 +193,13 @@ function add8() {
 }
 
 function add9() {
+    if (pressedEqual)
+    {
+        member1 = '';
+        member2 = '';
+        stillMember1 = true;
+        pressedEqual = false;
+    }
     resetConsOp();
 
     if (stillMember1 == true) {
@@ -151,6 +214,13 @@ function add9() {
 }
 
 function add0() {
+    if (pressedEqual)
+    {
+        member1 = '';
+        member2 = '';
+        stillMember1 = true;
+        pressedEqual = false;
+    }
     resetConsOp();
 
     if (stillMember1 == true) {
@@ -167,6 +237,7 @@ function add0() {
 
 
 function pressPlus() {
+    pressedEqual = false;
     numberOfConsOp++;
     if (numberOfConsOp >= 2) {
         return;
@@ -182,6 +253,7 @@ function pressPlus() {
 }
 
 function pressMinus() {
+    pressedEqual = false;
     numberOfConsOp++;
     if (numberOfConsOp >= 2) {
         return;
@@ -198,6 +270,7 @@ function pressMinus() {
 }
 
 function pressMul() {
+    pressedEqual = false;
     numberOfConsOp++;
     if (numberOfConsOp >= 2) {
         return;
@@ -214,6 +287,7 @@ function pressMul() {
 }
 
 function pressDiv() {
+    pressedEqual = false;
     numberOfConsOp++;
     if (numberOfConsOp >= 2) {
         return;
