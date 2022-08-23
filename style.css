@@ -154,7 +154,7 @@ button:hover {
 @media (max-width: 772px)
 {
     #display {
-        margin-top: 100px;
+        margin-top: 50px;
         height: 125px;
         grid-column-start: 2;
         grid-column-end: 10;
